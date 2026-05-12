@@ -1,0 +1,185 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header, footer {
+    background-color: #192a56;
+    color: #fff;
+    padding-top: 16px;
+}
+
+header > .container,
+footer > .container {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+nav {
+    background-color: #575ffc;
+    padding: 16px 0;
+    display: none;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    text-transform: uppercase;
+    margin-right: 16px;
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-hamburguer {
+    width: 32px;
+    cursor: pointer;
+}
+
+.menu-hamburguer span {
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.container-flex {
+    display: flex;
+}
+
+#sobre-a-loja img {
+    max-width: 400px;
+    margin-right: 24px;
+}
+
+section {
+    padding: 48px 0;
+}
+
+section h2,
+section p {
+    margin-bottom: 16px;
+}
+
+.destaque-list {
+    flex-wrap: wrap;
+}
+
+.destaque-list li {
+    max-width: 30%;
+    list-style: none;
+}
+
+.destaque-list h3 {
+    margin: 16px 0;
+}
+
+.destaque-list li img {
+    max-width: 100%;
+}
+
+.item-central {
+    margin: 0 5%;
+}
+
+h3 {
+    margin-block: 10px;
+}
+
+.destaque-list li button {
+    width: 100%;
+    margin-bottom: 56px;
+}
+
+.price {
+    display: block;
+    margin: 16px 0;
+}
+
+.price del {
+    color: #ccc;
+    font-size: 0.875rem;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: green;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    font-style: italic;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+form {
+    max-width: 360px;
+}
+
+form button {
+    width: 120px;
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-campo input,
+.form-campo textarea {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+.form-campo textarea {
+    resize: none;
+    height: 180px;
+}
+
+footer li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+footer li img {
+    height: 32px;
+}
+
+#em-destaque {
+    scroll-margin-top: 300px;
+}
